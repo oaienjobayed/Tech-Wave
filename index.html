@@ -7,7 +7,7 @@
     <title>Tech</title>
     <link rel="stylesheet" href="Styles/sug.css">
 </head>
-<body>
+<body class="max-w-[1600px]">
     <header>
         <nav class="flex items-center justify-between bg-[#14063e] px-12 py-6">
   
@@ -15,21 +15,28 @@
     <span class="text-white">Tech</span><span class="bg-linear-to-r from-orange-400 via-pink-500 to-purple-600 bg-clip-text text-transparent">Wave</span>
   </div>
 
-  <div class="flex items-center space-x-8 text-sm font-medium text-gray-300">
+  <div class="md:flex items-center hidden space-x-8 text-sm font-medium text-gray-300">
     <a href="" class="hover:text-white transition animate-bounce">About</a>
     <a href="" class="hover:text-white transition animate-bounce">Episodes</a>
     <a href="" class="hover:text-white transition animate-bounce">Host</a>
   </div>
 
-  <a href="" class="flex items-center gap-2 rounded-full bg-linear-to-r from-yellow-400 via-pink-500 to-purple-600 px-6 py-2.5 text-sm font-semibold transition-transform hover:scale-105">
+  <a href="" class="md:flex items-center hidden gap-2 rounded-full bg-linear-to-r from-yellow-400 via-pink-500 to-purple-600 px-6 py-2.5 text-sm font-semibold transition-transform hover:scale-105">
     Subscribe 
    </a>
+
+   <div class="lg:hidden mt-6">
+    <img 
+      src="image/hamburger-menu.png" 
+      alt="Shows only on mobile/md" 
+      class="relative bottom-3 left-2"
+    >
 
 </nav>
      
         <section class="relative flex flex-col items-center justify-center min-h-screen px-4 py-20 overflow-hidden text-center text-white bg-slate-950">
   
-  <div class="absolute flex pb-52 items-center justify-center">
+  <div class="absolute lg:max-w-full flex pb-52 items-center justify-center">
     <img class src="image/hero-bg.png" alt="Wave Background" w-full h-auto/>
   </div>
 
@@ -75,11 +82,11 @@
           <section class="bg-[#160235] text-white relative bottom-49 mb-20 py-20 px-6 font-sans">
   <div class="max-w-4xl mx-auto text-center">
     
-    <h2 class="text-4xl md:text-5xl font-bold mb-6">
+    <h2 class="text-5xl font-bold mb-6">
       About The Podcast
     </h2>
 
-    <div class="space-y-4 text-gray-300 text-lg md:text-xl max-w-2xl mx-auto">
+    <div class="space-y-4 text-gray-300 text-lg sm:text-xl md:max-w-2xl mx-auto">
       <p>
         TechWave is your go-to podcast for staying ahead in the fast-paced world of technology.
       </p>
@@ -262,13 +269,13 @@
     <img class src="image/footer-bg.png" alt="" w-full />
   </div>
   
-  <div class="relative z-10 text-center">
-    <h1 class="text-6xl md:text-7xl font-bold tracking-tight text-white flex items-center justify-center">
+  <div class="relative z-10 md:text-center">
+    <h1 class="text-5xl md:text-7xl font-bold tracking-tight text-white md:flex md:items-center justify-center">
       Tech<span class="bg-linear-to-r from-orange-400 via-pink-500 to-purple-600 bg-clip-text text-transparent">Wave</span>
     </h1>
   </div>
 
-  <div class="relative z-10 mt-8 flex flex-wrap justify-center gap-6 text-gray-300 text-sm font-medium">
+  <div class="relative z-10 mt-8 flex justify-center gap-6 text-gray-300 text-sm font-medium">
     <a href="" class="flex items-center gap-2 hover:text-white transition-colors">
       <img src="image/spotify.png" alt="">Spotify
     </a>
