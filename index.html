@@ -16,9 +16,9 @@
   </div>
 
   <div class="flex items-center space-x-8 text-sm font-medium text-gray-300">
-    <a href="" class="hover:text-white transition">About</a>
-    <a href="" class="hover:text-white transition">Episodes</a>
-    <a href="" class="hover:text-white transition">Host</a>
+    <a href="" class="hover:text-white transition animate-bounce">About</a>
+    <a href="" class="hover:text-white transition animate-bounce">Episodes</a>
+    <a href="" class="hover:text-white transition animate-bounce">Host</a>
   </div>
 
   <a href="" class="flex items-center gap-2 rounded-full bg-linear-to-r from-yellow-400 via-pink-500 to-purple-600 px-6 py-2.5 text-sm font-semibold transition-transform hover:scale-105">
@@ -29,7 +29,7 @@
      
         <section class="relative flex flex-col items-center justify-center min-h-screen px-4 py-20 overflow-hidden text-center text-white bg-slate-950">
   
-  <div class="absolute flex pb-52 items-center justify-center ">
+  <div class="absolute flex pb-52 items-center justify-center">
     <img class src="image/hero-bg.png" alt="Wave Background" w-full h-auto/>
   </div>
 
@@ -49,7 +49,7 @@
     
     <div class="relative z-10 bottom-35">
     <div class="mt-8">
-      <h1 class="text-5xl font-extrabold tracking-tight md:text-6xl">
+      <h1 class="text-5xl font-extrabold md:text-6xl">
         TechWave
       </h1>
       <p class="max-w-md mt-4 text-sm font-light whitespace-nowrap text-slate-300 md:text-base">
@@ -59,13 +59,11 @@
 
     <div class="flex flex-col items-center gap-4 mt-10 sm:flex-row">
       <button class="flex items-center gap-2 px-6 py-2.5 font-medium transition-all rounded-full bg-linear-to-r from-orange-400 to-pink-600 hover:scale-105 ">
-        <span class="p-1 bg-white rounded-full">
-          </span>
-        Listen On Spotify
+        <img src="image/spotify.png" alt="">Listen On Spotify 
       </button>
 
-      <button class="flex items-center gap-2 px-6 py-2.5 font-medium border border-emerald-500/50 rounded-full bg-emerald-500/10 hover:bg-emerald-500/20 transition-colors">
-        <span class="text-emerald-400">Subscribe</span>
+      <button class="flex items-center gap-2 px-6 py-2.5 font-medium border border-emerald-500/50 rounded-full text-emerald-500 hover:bg-emerald-500/20 transition-colors">
+        <img src="image/message.png" alt="">Subscribe
       </button>
     </div>
     </div>
@@ -123,7 +121,7 @@
 </section>
 
      <section>
-      <div class="relative bottom-69 bg-[#13072E] text-white p-8 flex flex-col items-center">
+      <div class="relative bottom-69 pt-20 pb-20 bg-[#13072E] text-white p-8 flex flex-col items-center">
   
   <h2 class="text-3xl font-bold mb-12">Why Choose TechWave</h2>
 
@@ -174,7 +172,7 @@
      </section>
 
      <section>
-      <div class="bg-[#130b2b] relative bottom-69 pb-20 text-white p-8 font-sans">
+      <div class="bg-[#130b2b] relative bottom-69 pt-20 pb-20 text-white p-8 font-sans">
   <h2 class="text-3xl font-bold text-center mb-12">Featured Episodes</h2>
 
   <div class="mx-auto grid max-w-6xl gap-8 md:grid-cols-3 rounded-2xl bg-[#1f1147] shadow-lg transition-transform hover:scale-[1.02]">
@@ -191,7 +189,7 @@
   <div class="aspect-video w-full">
         <iframe 
           class="h-full w-full" 
-          src="https://www.youtube.com/embed/z58Sh8IndkY?si=n4W7fDuljl8wb-os" 
+          src="https://www.youtube.com/embed/rRJa-i3Z58k?si=o8n_Gbb87RP_mfiC" 
           title="YouTube video player" 
           frameborder="0" 
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
@@ -201,7 +199,7 @@
   <div class="aspect-video w-full">
         <iframe 
           class="h-full w-full" 
-          src="https://www.youtube.com/embed/z58Sh8IndkY?si=n4W7fDuljl8wb-os" 
+          src="https://www.youtube.com/embed/lq-sWRnYWKQ?si=LuTwVRUO54zY3u0k" 
           title="YouTube video player" 
           frameborder="0" 
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
@@ -213,7 +211,7 @@
     </section>
 
     <section>
-      <div class="relative bottom-69 bg-[#0f0524] p-10 text-white font-sans">
+      <div class="relative bottom-69 pt-20 pb-20 bg-[#0f0524] p-10 text-white font-sans">
   <h2 class="mb-12 text-center text-4xl font-bold">Meet The Host</h2>
 
   <div class="mx-auto max-w-5xl gap-8 grid md:grid-cols">
@@ -258,5 +256,37 @@
 </div>
     </section>
     </main>
-</body>
+
+           <footer class="relative bottom-110 pb-10 h-auto w-full flex flex-col items-center justify-center min-h-screen text-center text-white">
+  <div class="absolute flex items-center justify-center ">
+    <img class src="image/footer-bg.png" alt="" w-full />
+  </div>
+  
+  <div class="relative z-10 text-center">
+    <h1 class="text-6xl md:text-7xl font-bold tracking-tight text-white flex items-center justify-center">
+      Tech<span class="bg-linear-to-r from-orange-400 via-pink-500 to-purple-600 bg-clip-text text-transparent">Wave</span>
+    </h1>
+  </div>
+
+  <div class="relative z-10 mt-8 flex flex-wrap justify-center gap-6 text-gray-300 text-sm font-medium">
+    <a href="" class="flex items-center gap-2 hover:text-white transition-colors">
+      <img src="image/spotify.png" alt="">Spotify
+    </a>
+    <a href="" class="flex items-center gap-2 hover:text-white transition-colors">
+      <img src="image/apple-podcast.png" alt=""> Apple Podcasts
+    </a>
+    <a href="" class="flex items-center gap-2 hover:text-white transition-colors">
+     <img src="image/youtube-podcast.png" alt=""> YouTube
+    </a>
+    <a href="" class="flex items-center gap-2 hover:text-white transition-colors">
+      <img src="image/twitter.png" alt="">Twitter
+    </a>
+  </div>
+
+  <p class="relative z-10 mt-10 text-xs text-gray-500">
+    © 2026 TechWave Podcast. All rights reserved.
+  </p>
+</footer>
+
+  </body>
 </html>
